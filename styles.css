@@ -1,0 +1,65 @@
+body{
+  background-color: #DDDDDD;
+  font-family: 'Alumni Sans', sans-serif;
+}
+img{
+  width: 85%;
+  padding: 0;
+}
+h1{
+  padding-top: 4%;
+  margin-right: 11%;
+  font-family: 'Playfair Display', serif;
+}
+.image{
+  padding: 0;
+}
+.form{
+  background-color: #fff;
+  margin: 3% 10%;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textArea{
+  text-align: center;
+  padding: 0;
+}
+.taRow{
+  margin: 7% auto 5%;
+  font-family: 'Poppins', sans-serif;
+}
+.col-lg-6{
+  text-align: left;
+}
+.btn{
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8%;
+  margin-right: 10%;
+  border: solid;
+  border-radius: 0;
+  padding: 1.5% 10%;
+}
+btn:hover{
+  background-color: #000;
+}
+.rcol{
+  padding-right: 3%;
+  padding-left: 0%;
+}
+.lcol{
+  padding: 0;
+}
+input{
+  border: solid;
+  border-width: thin;
+  border-radius: 0;
+}
+span{
+  color: red ;
+  font-family: 'Alumni Sans', sans-serif;
+}
+br{
+  padding: 0;
+  margin: 0;
+}

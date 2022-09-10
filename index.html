@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="form row ">
+    <div class="image col-lg-5">
+      <img src="images/form image.jpg" alt="form image">
+    </div>
+    <div class="textArea col-lg-7">
+      <h1>Contact Details</h1>
+      <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="row taRow">
+          <div class="col col-lg-6 lcol tcol" id="name">
+            Name: <input type="text" name="fName" required><br><b><span class="ferror"> </span></b>
+          </div>
+          <div class="col col-lg-6 rcol tcol" id="email">
+            Email: <input type="email" name="fEmail" required><br><b><span class="ferror"> </span></b>
+          </div>
+        </div>
+        <div class="row taRow">
+          <div class="col col-lg-6 lcol bcol" id="phone">
+            Phone: <input type="number" name="fPhone" required><br><b><span class="ferror"></span></b>
+          </div>
+          <div class="col col-lg-6 rcol bcol" id="message">
+            Message: <input type="text" name="fMessage"><br><b><span class="ferror"></span></b>
+          </div>
+        </div>
+        <input class="btn btn-dark btn-lg" type="submit" value="SUBMIT">
+
+      </form>
+    </div>
+  </div>
+</body>
+<!-- js -->
+<script src="index.js" charset="utf-8"></script>
+
+</html>
